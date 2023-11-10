@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color:#070719;
+}
+
+.container-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+/* Start Header */
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    background-color: #0c0c23;
+    height: auto;
+}
+/* End Header */
+
+/* Start jobs-recently */
+
+.jobs-recently{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    background-color: #0c0c23;
+}
+
+.jobs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.card-jobs{
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.card-jobs-item{
+    background: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    }
+
+.container-jobs{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.img-jobs{
+    display: flex;justify-content: center;align-items: center;margin: 50px auto;border-radius: 20px;
+}
+/* End jobs-recently */
+
+/* Start Process */
+.process{
+    height: auto;
+    background-color: #0c0c23;
+}
+
+.process-title{
+    font-size: 20px;font-weight: bold;
+    margin-top: 300px;
+}
+
+.process-card{
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.9px);
+-webkit-backdrop-filter: blur(1.9px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (min-width:300px),(max-width:1400px) {
+    .process-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+    }
+
+    .title-process{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header{
+        height: auto;
+    }
+}
+
+.down-process-card{
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0.1px);
+-webkit-backdrop-filter: blur(0.1px);
+border: 1px solid rgba(255, 255, 255, 0.11);
+}
+/* End Process */
+
+/* Start Blog */
+.blog{
+    height: auto;
+    background-color: #0c0c23;
+}
+/* End Blog */
+
+/* Start Join */
+.join{
+    height: auto;
+    background-color: #6ab8ff;
+}
+/* End Join */
+
+.img-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    height: 60px;
+}
+
+.contact-item{
+    background-color:#070719;
+    height: 100px;
+}
